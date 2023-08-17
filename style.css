@@ -1,0 +1,205 @@
+.main-container{
+    background-color:white;
+    max-width: 400px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+    display: flex;
+    
+}
+.result{
+    background-color: hsl(228, 86%, 59%);
+    max-width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: -140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.circle{
+    background-color: hsl(228, 95%, 47%);
+    width: 130px;
+    height: 130px;
+    border-radius: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.obtained-marks{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 5px;
+}
+.total-marks{
+    color: white;
+    font-size: 15px;
+    margin-top: -55px;
+}
+.remarks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.remarks-details{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    padding-top: -5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: whitesmoke;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+#summary-heading{
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    background-color: antiquewhite;
+    width: 220px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 15px;
+    padding-top: 5px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+   
+}
+i{
+    margin-right: 5px;
+}
+#one{
+    padding-left: 20px;
+    color: red;
+    background-color: rgb(247, 222, 222);
+    font-weight: bold;
+    
+}
+#two{
+    padding-left: 20px;
+    color: orange;
+    background-color: rgb(253, 245, 231);
+    font-weight: bold;
+}
+#three{
+    padding-left: 20px;
+    color: rgb(20, 184, 148);
+    background-color: rgb(228, 252, 247);
+    font-weight: bold;
+}
+#four{
+    padding-left: 20px;
+    color: rgb(9, 40, 141);
+    background-color: rgb(226, 233, 255);
+    font-weight: bold;
+}
+ #obtain {
+    color: black;
+    font-weight: bold;
+}
+ #total{
+    color: grey;
+    font-weight: bold;
+}
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(49, 47, 47);
+
+}
+.p1{
+    display: inline-block; /* change the display type           */
+    margin: 10px 0 10px 10px;
+}
+.p
+{
+    font-size: 20px;
+    color: seagreen;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+@media (max-width: 600px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        background-color: white;
+        max-width: 600px;
+        height: 700px;
+        margin: 0;
+        border-radius: 0px;
+        
+    }
+    .result{
+        max-width: 700px;
+        margin-left: 0px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        margin-top: -10px
+    }
+    .summary{
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 60px;
+        margin-right: 30px;
+        width: 380px;
+        display: flex;
+        height: 380px;
+    }
+    li{
+        width:  320px;
+        height: 40px;
+    }
+    button{
+        width:  320px;
+    }
+    #obtain{
+        padding-left: 90px;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
