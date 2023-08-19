@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap')
+;
+html{
+    font-size: 62.5%;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Kumbh Sans';
+}
+body{
+    background-color: #19a1ad;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+   
+} 
+.container{
+    margin-left:-300px;
+    margin-top: 200px;
+}
+.topimage{
+    height: 0%;
+}
+.botimage{
+    height: 100%;
+}
+
+.top-image img{
+   width:77%;
+   min-height: 65%;
+    position: absolute;
+    top: -40vw;
+    left: -22vw;
+}
+.bottom-image img{
+    min-width: 65%;
+    max-width: 75%;
+    position: absolute;
+    bottom:   -40vw;
+    right:  -15vw;
+   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+    margin-left: 550px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    z-index: 0;
+    margin-top: 100px;
+} 
+.card .background-img{
+    width: 300px;
+    margin-top: -100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.profile-pic{
+    border-radius: 100px;
+    border: 4px solid white ;
+    margin-top: -60px;
+    display: block;
+}
+.card span{
+    font-weight: lighter;
+    padding-left: 5px;   
+}
+.card .location{
+    margin-top: -3px;
+    font-size: 15px;
+}
+hr{
+    display: block;
+    color: black;
+    width: 298px;
+}
+.following-in-numbers{
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
+}
+.following-in-numbers p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.following-type{
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    margin-top: -20px;
+}
+.following-type p{
+    letter-spacing: 1px;
+}
+@media (max-width: 600px){
+    .container{
+        margin-top: 300px;
+        margin-left: -550px;
+    }
+    .top-image img{
+        max-width: 30%;
+        left: 10vw;
+        min-height: 70%;
+        top: -20vw;
+    }
+    .bottom-image img{
+        bottom: -30vw;
+        
+    }
+    .card{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .card .background-img{
+        width: 400px;
+
+    }
+    h2{
+        font-size: 25px;
+    }
+    .card .location{
+        font-size: 20px;
+    }
+    .following-in-numbers p{
+        font-size: 25px;
+    }
+    .following-type p{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .following-type{
+        
+        gap: 57px;
+        
+    }
+   
+}
+
